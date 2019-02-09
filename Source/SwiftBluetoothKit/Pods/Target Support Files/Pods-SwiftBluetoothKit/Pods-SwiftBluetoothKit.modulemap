@@ -1,0 +1,6 @@
+framework module Pods_SwiftBluetoothKit {
+  umbrella header "Pods-SwiftBluetoothKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
