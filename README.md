@@ -9,6 +9,10 @@ SwiftBluetoothKit is a Bluetooth framework that makes interaction with BLE devic
 - **MockBluetoothKit** framework have **StubBluetoothManager** class, which implements **BluetoothManagerProtocol** and responsible for `testing the Happy-Flow of BLE operations` in unit-test phase.
 - **MockBluetoothKit** framework also have **ExceptionBluetoothManager** class, which implements **BluetoothManagerProtocol** and responsible for `testing the Exception-Scenarios of BLE operations` in unit-test phase.
 
+### TODO
+- Example app with SwiftBluetoothKit & MockBluetoothKit.
+-------------------
+
 ## Central mode features
 * [Observing manager states]
 * [Scanning for peripherals]
