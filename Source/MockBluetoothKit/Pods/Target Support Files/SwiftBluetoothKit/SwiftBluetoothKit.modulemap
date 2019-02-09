@@ -1,0 +1,6 @@
+framework module SwiftBluetoothKit {
+  umbrella header "SwiftBluetoothKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

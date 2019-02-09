@@ -1,0 +1,6 @@
+framework module Pods_MockBluetoothKit_MockBluetoothKitTests {
+  umbrella header "Pods-MockBluetoothKit-MockBluetoothKitTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

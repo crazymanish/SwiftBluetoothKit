@@ -1,0 +1,30 @@
+{
+  "name": "SwiftBluetoothKit",
+  "version": "0.0.1",
+  "summary": "SwiftBluetoothKit is a Bluetooth framework written in Swift.",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "authors": {
+    "Manish Rathi": "manishrathi19902013@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/crazymanish/SwiftBluetoothKit",
+  "source": {
+    "git": "https://github.com/crazymanish/SwiftBluetoothKit.git",
+    "tag": "0.0.1"
+  },
+  "source_files": [
+    "Source/SwiftBluetoothKit/SwiftBluetoothKit/**/*.{h,swift}"
+  ],
+  "requires_arc": true,
+  "dependencies": {
+    "RxBluetoothKit": [
+      "~> 5.0"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.2"
+  },
+  "swift_version": "4.2"
+}
