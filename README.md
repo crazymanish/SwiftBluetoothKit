@@ -4,6 +4,11 @@ SwiftBluetoothKit is a Protocol oriented iOS Bluetooth framework.
 
 SwiftBluetoothKit is a Bluetooth framework that makes interaction with BLE devices much more pleasant. It's backed by RxSwift and CoreBluetooth and currently it provides nice API, for Central mode. All to work with and make your code more readable, reliable and easier to maintain.
 
+## Usage
+- **SwiftBluetoothKit** framework have **BluetoothManager** as core class, which implements **BluetoothManagerProtocol** and responsible for BLE operations.
+- **MockBluetoothKit** framework have **StubBluetoothManager** class, which implements **BluetoothManagerProtocol** and responsible for `testing the Happy-Flow of BLE operations` in unit-test phase.
+- **MockBluetoothKit** framework also have **ExceptionBluetoothManager** class, which implements **BluetoothManagerProtocol** and responsible for `testing the Exception-Scenarios of BLE operations` in unit-test phase.
+
 ## Central mode features
 * [Observing manager states]
 * [Scanning for peripherals]
@@ -195,8 +200,11 @@ public protocol CharacteristicProtocol: class {
     /// Properties of characteristic. For more info about this refer to [CBCharacteristicProperties](https://developer.apple.com/library/ios/documentation/CoreBluetooth/Reference/CBCharacteristic_Class/#//apple_ref/c/tdef/CBCharacteristicProperties)
     var properties: CBCharacteristicProperties { get }
 }
-
 ```
+
+# MockBluetoothKit
+MockBluetoothKit is a mock version of SwiftBluetoothKit framework.
+
 
 # Installation
 
@@ -206,7 +214,8 @@ To integrate RxBluetoothKit into your Xcode project using CocoaPods specify it i
 ```ruby
 source 'https://github.com/crazymanish/CocoaPodsSpecs.git'  #Add this source line, this library still under development.
 
-pod 'SwiftBluetoothKit'
+pod 'SwiftBluetoothKit'  #Add CocoaPods dependency for SwiftBluetoothKit
+pod 'MockBluetoothKit'  #Add CocoaPods dependency for Mock version of SwiftBluetoothKit
 ```
 
 
@@ -219,3 +228,6 @@ pod 'SwiftBluetoothKit'
 
 # Motivation & Thanks
 * [RxBluetoothKit](https://github.com/Polidea/RxBluetoothKit)
+
+# LICENSE
+* MIT
