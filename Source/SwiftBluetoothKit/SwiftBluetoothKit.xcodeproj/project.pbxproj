@@ -11,6 +11,24 @@
 		843973B9220F041600485B5B /* SwiftBluetoothKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843973AF220F041600485B5B /* SwiftBluetoothKit.framework */; };
 		843973BE220F041600485B5B /* SwiftBluetoothKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973BD220F041600485B5B /* SwiftBluetoothKitTests.swift */; };
 		843973C0220F041600485B5B /* SwiftBluetoothKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 843973B2220F041600485B5B /* SwiftBluetoothKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		843973E3220F081500485B5B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973CA220F081400485B5B /* Service.swift */; };
+		843973E4220F081500485B5B /* ServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973CB220F081400485B5B /* ServiceProtocol.swift */; };
+		843973E5220F081500485B5B /* BluetoothState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973CD220F081400485B5B /* BluetoothState.swift */; };
+		843973E6220F081500485B5B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973CF220F081500485B5B /* Result.swift */; };
+		843973E8220F081500485B5B /* PeripheralProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973D3220F081500485B5B /* PeripheralProtocol.swift */; };
+		843973E9220F081500485B5B /* Peripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973D4220F081500485B5B /* Peripheral.swift */; };
+		843973EA220F081500485B5B /* ScannedPeripheralProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973D5220F081500485B5B /* ScannedPeripheralProtocol.swift */; };
+		843973EB220F081500485B5B /* ScannedPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973D6220F081500485B5B /* ScannedPeripheral.swift */; };
+		843973EC220F081500485B5B /* BluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973D8220F081500485B5B /* BluetoothManager.swift */; };
+		843973ED220F081500485B5B /* BluetoothManager+ObserveState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973D9220F081500485B5B /* BluetoothManager+ObserveState.swift */; };
+		843973EE220F081500485B5B /* BluetoothManager+ScanPeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973DA220F081500485B5B /* BluetoothManager+ScanPeripheral.swift */; };
+		843973EF220F081500485B5B /* BluetoothManager+CharacteristicNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973DB220F081500485B5B /* BluetoothManager+CharacteristicNotification.swift */; };
+		843973F0220F081500485B5B /* BluetoothManager+ReadWriteCharacteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973DC220F081500485B5B /* BluetoothManager+ReadWriteCharacteristic.swift */; };
+		843973F1220F081500485B5B /* BluetoothManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973DD220F081500485B5B /* BluetoothManagerProtocol.swift */; };
+		843973F2220F081500485B5B /* BluetoothManager+DiscoverCharacteristics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973DE220F081500485B5B /* BluetoothManager+DiscoverCharacteristics.swift */; };
+		843973F3220F081500485B5B /* BluetoothManager+PeripheralConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973DF220F081500485B5B /* BluetoothManager+PeripheralConnection.swift */; };
+		843973F4220F081500485B5B /* CharacteristicProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973E1220F081500485B5B /* CharacteristicProtocol.swift */; };
+		843973F5220F081500485B5B /* Characteristic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843973E2220F081500485B5B /* Characteristic.swift */; };
 		AC891D062E06A1EB07B8F5EB /* Pods_SwiftBluetoothKit_SwiftBluetoothKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73D2C8F83129EC615ECF0BD6 /* Pods_SwiftBluetoothKit_SwiftBluetoothKitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +53,24 @@
 		843973B8220F041600485B5B /* SwiftBluetoothKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBluetoothKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		843973BD220F041600485B5B /* SwiftBluetoothKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBluetoothKitTests.swift; sourceTree = "<group>"; };
 		843973BF220F041600485B5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843973CA220F081400485B5B /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		843973CB220F081400485B5B /* ServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProtocol.swift; sourceTree = "<group>"; };
+		843973CD220F081400485B5B /* BluetoothState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothState.swift; sourceTree = "<group>"; };
+		843973CF220F081500485B5B /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		843973D3220F081500485B5B /* PeripheralProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralProtocol.swift; sourceTree = "<group>"; };
+		843973D4220F081500485B5B /* Peripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Peripheral.swift; sourceTree = "<group>"; };
+		843973D5220F081500485B5B /* ScannedPeripheralProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedPeripheralProtocol.swift; sourceTree = "<group>"; };
+		843973D6220F081500485B5B /* ScannedPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScannedPeripheral.swift; sourceTree = "<group>"; };
+		843973D8220F081500485B5B /* BluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManager.swift; sourceTree = "<group>"; };
+		843973D9220F081500485B5B /* BluetoothManager+ObserveState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BluetoothManager+ObserveState.swift"; sourceTree = "<group>"; };
+		843973DA220F081500485B5B /* BluetoothManager+ScanPeripheral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BluetoothManager+ScanPeripheral.swift"; sourceTree = "<group>"; };
+		843973DB220F081500485B5B /* BluetoothManager+CharacteristicNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BluetoothManager+CharacteristicNotification.swift"; sourceTree = "<group>"; };
+		843973DC220F081500485B5B /* BluetoothManager+ReadWriteCharacteristic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BluetoothManager+ReadWriteCharacteristic.swift"; sourceTree = "<group>"; };
+		843973DD220F081500485B5B /* BluetoothManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothManagerProtocol.swift; sourceTree = "<group>"; };
+		843973DE220F081500485B5B /* BluetoothManager+DiscoverCharacteristics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BluetoothManager+DiscoverCharacteristics.swift"; sourceTree = "<group>"; };
+		843973DF220F081500485B5B /* BluetoothManager+PeripheralConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BluetoothManager+PeripheralConnection.swift"; sourceTree = "<group>"; };
+		843973E1220F081500485B5B /* CharacteristicProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacteristicProtocol.swift; sourceTree = "<group>"; };
+		843973E2220F081500485B5B /* Characteristic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Characteristic.swift; sourceTree = "<group>"; };
 		AA4AE6EF54C223F1B5B858DF /* Pods-SwiftBluetoothKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBluetoothKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBluetoothKit/Pods-SwiftBluetoothKit.debug.xcconfig"; sourceTree = "<group>"; };
 		C7730D6051B96636FE1970D2 /* Pods-SwiftBluetoothKit-SwiftBluetoothKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftBluetoothKit-SwiftBluetoothKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftBluetoothKit-SwiftBluetoothKitTests/Pods-SwiftBluetoothKit-SwiftBluetoothKitTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +119,12 @@
 		843973B1220F041600485B5B /* SwiftBluetoothKit */ = {
 			isa = PBXGroup;
 			children = (
+				843973D7220F081500485B5B /* Manager */,
+				843973CC220F081400485B5B /* BluetoothState */,
+				843973E0220F081500485B5B /* Characteristic */,
+				843973D2220F081500485B5B /* Peripheral */,
+				843973CE220F081500485B5B /* Result */,
+				843973C9220F081400485B5B /* Service */,
 				843973B2220F041600485B5B /* SwiftBluetoothKit.h */,
 				843973B3220F041600485B5B /* Info.plist */,
 			);
@@ -96,6 +138,66 @@
 				843973BF220F041600485B5B /* Info.plist */,
 			);
 			path = SwiftBluetoothKitTests;
+			sourceTree = "<group>";
+		};
+		843973C9220F081400485B5B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				843973CB220F081400485B5B /* ServiceProtocol.swift */,
+				843973CA220F081400485B5B /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		843973CC220F081400485B5B /* BluetoothState */ = {
+			isa = PBXGroup;
+			children = (
+				843973CD220F081400485B5B /* BluetoothState.swift */,
+			);
+			path = BluetoothState;
+			sourceTree = "<group>";
+		};
+		843973CE220F081500485B5B /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				843973CF220F081500485B5B /* Result.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
+		843973D2220F081500485B5B /* Peripheral */ = {
+			isa = PBXGroup;
+			children = (
+				843973D3220F081500485B5B /* PeripheralProtocol.swift */,
+				843973D4220F081500485B5B /* Peripheral.swift */,
+				843973D5220F081500485B5B /* ScannedPeripheralProtocol.swift */,
+				843973D6220F081500485B5B /* ScannedPeripheral.swift */,
+			);
+			path = Peripheral;
+			sourceTree = "<group>";
+		};
+		843973D7220F081500485B5B /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				843973D8220F081500485B5B /* BluetoothManager.swift */,
+				843973D9220F081500485B5B /* BluetoothManager+ObserveState.swift */,
+				843973DA220F081500485B5B /* BluetoothManager+ScanPeripheral.swift */,
+				843973DB220F081500485B5B /* BluetoothManager+CharacteristicNotification.swift */,
+				843973DC220F081500485B5B /* BluetoothManager+ReadWriteCharacteristic.swift */,
+				843973DD220F081500485B5B /* BluetoothManagerProtocol.swift */,
+				843973DE220F081500485B5B /* BluetoothManager+DiscoverCharacteristics.swift */,
+				843973DF220F081500485B5B /* BluetoothManager+PeripheralConnection.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		843973E0220F081500485B5B /* Characteristic */ = {
+			isa = PBXGroup;
+			children = (
+				843973E1220F081500485B5B /* CharacteristicProtocol.swift */,
+				843973E2220F081500485B5B /* Characteristic.swift */,
+			);
+			path = Characteristic;
 			sourceTree = "<group>";
 		};
 		A0D2D9D7D9D76777278D6689 /* Frameworks */ = {
@@ -302,6 +404,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843973F2220F081500485B5B /* BluetoothManager+DiscoverCharacteristics.swift in Sources */,
+				843973F1220F081500485B5B /* BluetoothManagerProtocol.swift in Sources */,
+				843973E3220F081500485B5B /* Service.swift in Sources */,
+				843973E9220F081500485B5B /* Peripheral.swift in Sources */,
+				843973E5220F081500485B5B /* BluetoothState.swift in Sources */,
+				843973F5220F081500485B5B /* Characteristic.swift in Sources */,
+				843973EC220F081500485B5B /* BluetoothManager.swift in Sources */,
+				843973F0220F081500485B5B /* BluetoothManager+ReadWriteCharacteristic.swift in Sources */,
+				843973F4220F081500485B5B /* CharacteristicProtocol.swift in Sources */,
+				843973EE220F081500485B5B /* BluetoothManager+ScanPeripheral.swift in Sources */,
+				843973ED220F081500485B5B /* BluetoothManager+ObserveState.swift in Sources */,
+				843973EF220F081500485B5B /* BluetoothManager+CharacteristicNotification.swift in Sources */,
+				843973EB220F081500485B5B /* ScannedPeripheral.swift in Sources */,
+				843973EA220F081500485B5B /* ScannedPeripheralProtocol.swift in Sources */,
+				843973E8220F081500485B5B /* PeripheralProtocol.swift in Sources */,
+				843973E6220F081500485B5B /* Result.swift in Sources */,
+				843973F3220F081500485B5B /* BluetoothManager+PeripheralConnection.swift in Sources */,
+				843973E4220F081500485B5B /* ServiceProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +622,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 152D3C54E01400A65DF9EC21 /* Pods-SwiftBluetoothKit-SwiftBluetoothKitTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftBluetoothKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -520,6 +641,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C7730D6051B96636FE1970D2 /* Pods-SwiftBluetoothKit-SwiftBluetoothKitTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftBluetoothKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
